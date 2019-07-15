@@ -1,0 +1,21 @@
+@import '_variables';
+
+.DetailsItem {
+  width: 730px;
+  height: 287px;
+  border-radius: 4px;
+  border: solid 1px $item-border;
+  background-color: $white;
+}
+
+.likes {
+  margin: auto 0 auto auto;
+  color: $golden2;
+  text-transform: capitalize;
+  padding: 2px 12px;
+  border-radius: 12px;
+}
+
+.chestnut {
+  background-color: $black;
+}

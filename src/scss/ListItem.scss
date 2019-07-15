@@ -1,0 +1,70 @@
+@import '_variables';
+
+.ListItem {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width: 360px;
+  width: calc((100vw - 480px) / 3);
+  height: 264px;
+  border-radius: 2px;
+  border: solid 1px $item-border;
+  margin: 0 10px 38px 0;
+  background-color: $white;
+  padding: 16px;
+}
+
+.ListItem:hover {
+  box-shadow: 0 1px 7px 0 $shadow;
+}
+
+.joke-title {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: $light-grey;
+}
+
+.joke-body {
+  min-height: 190px;
+  font-size: 16px;
+  line-height: 1.57;
+  color: $light-grey;
+}
+
+.see-details a {
+  display: flex;
+  align-items: center;
+  color: $golden2;
+}
+
+.see-details {
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  text-align: right;
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
+.joke-title-icon,
+.see-details-icon {
+  margin-left: 8px;
+  background-image: url('../img/path.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 12px;
+}
+
+.joke-title-icon {
+  width: 8px;
+  height: 14px;
+  margin-right: 8px;
+  background-image: url('../img/green-light.svg');
+}

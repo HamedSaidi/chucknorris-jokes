@@ -1,0 +1,88 @@
+@import '_variables';
+
+.btn-container {
+  width: 206px;
+  height: 48px;
+  border-radius: 2px;
+  border: solid 1px $grey1;
+  background-color: $grey2;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  text-transform: capitalize;
+  text-align: center;
+  color: $white;
+  cursor: pointer;
+}
+
+.btn-container:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-animal {
+  background-color: $animal;
+}
+
+.btn-career {
+  background-color: $career;
+}
+.btn-celebrity {
+  background-color: $celebrity;
+}
+
+.btn-dev {
+  background-color: $dev;
+}
+
+.btn-explicit {
+  background-color: $explicit;
+}
+.btn-fashion {
+  background-color: $fashion;
+}
+
+.btn-food {
+  background-color: $food;
+}
+
+.btn-container:focus {
+  outline: none;
+}
+
+.btn-view-more-container {
+  border: solid 1px $golden;
+  background-color: $white;
+}
+
+.btn-view-more {
+  display: flex;
+  width: 206px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: inherit;
+  border: none;
+  color: $white;
+  cursor: pointer;
+}
+
+.view-more-label {
+  width: 100%;
+  color: $golden2;
+}
+
+.view-more-icon {
+  width: 16px;
+  height: 18px;
+  margin-right: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../img/arrow-down.svg');
+}
+
+.view-more-icon-less {
+  background-image: url('../img/arrow-down.svg');
+}

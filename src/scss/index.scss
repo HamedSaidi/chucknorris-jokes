@@ -1,0 +1,18 @@
+@import '_variables';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-size: 1em;
+  background-color: $bg-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus,
+a:focus {
+  outline: none;
+}

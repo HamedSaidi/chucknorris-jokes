@@ -1,0 +1,37 @@
+@import '_variables';
+
+.filters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.btn-container {
+  margin: 10px 20px 0 0;
+}
+
+.List {
+  margin-top: 40px;
+  display: flex;
+  min-height: 50vh;
+  flex-wrap: wrap;
+}
+
+.category {
+  margin-top: 40px;
+  height: 22px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.83;
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 11px;
+  background-color: $fashion;
+  padding: 0 11px;
+}
+
+.view-more-jokes {
+  margin: 10px auto;
+}
